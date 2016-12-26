@@ -1,0 +1,559 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #FE5400;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header-wrap{
+    padding-left: 0.986667rem;
+    padding-top: 0.16rem;
+    padding-bottom: 0.16rem;
+    padding-right: 0.2rem;
+    background-size: 0.72rem 0.543333rem;
+    background-position: 0.12rem center;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("../img/tao.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+#search{
+    border-radius: 0.106667rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #B52600;
+    text-align: center;
+}
+
+#search span{
+    height: 0.666667rem;
+    line-height: 0.666667rem;
+    font-size: 0.346667rem;
+    color: #F0E0DC;
+    display: inline-block;
+}
+
+#search .iconfont{
+    font-size: 0.4rem;
+}
+
+#content{
+    margin-top: 0.986667rem;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-container {
+    width: 10rem;
+    height: 3.125rem;
+    position: relative;
+}
+
+.swiper-pagination{
+    text-align: right !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet{
+    margin: 0 0.09375rem 0 0.09375rem !important;
+    border: 0.026667rem solid #666666 !important;
+    background: #FFFFFF !important;
+} 
+
+.swiper-pagination-bullet-active{
+    border: none !important;
+    background: #FE5400 !important;
+}
+
+.choosecontent{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 4.594rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.choosebox{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-left: 0.359rem;
+    width: 9.641rem;
+    height: 2.125rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.chooseitem{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-left: 0.047rem;
+    width: 1.813rem;
+    height: 2.125rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.chooseline{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-left: 0.047rem;
+    width: 1.625rem;
+    height: 2.125rem;
+    position: absolute;
+}
+
+.itemline{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-left: 0.047rem;
+    width: 1.625rem;
+    height: 2.125rem;
+    position: absolute;
+}
+
+.itemimg{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.itemtext{
+    box-sizing: border-box;
+    line-height: 0.688rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: rgb(102, 102, 102);
+    background-color: transparent;
+    width: 1.625rem;
+    height: 0.688rem;
+}
+
+.UIview{
+    box-sizing: border-box; 
+    line-height: 0; 
+    background-color: rgb(232, 232, 232); 
+    width: 10rem; 
+    height: 0.026667rem;
+}
+
+.toutiaocontent{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.953rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.movebox{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.938rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.toutiaobox{
+    width: 10rem;
+    height: 0.75rem;
+    padding: 0.09375rem 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.toutiaoimg{
+    display: block;
+    border-right: 0.026667rem solid rgb(232, 232, 232);
+    width: 2.1875rem;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: center;
+    background-image: url(../img/toutiao.png);
+    background-size: 1.61719rem 0.46875rem;
+    background-repeat: no-repeat;
+}
+
+.toutiaonew{
+    display: block;
+    margin: 0.125rem 0.15625rem 0.125rem 0.28125rem;
+    padding: 0px 0.0625rem;
+    height: 0.46875rem;
+    line-height: 0.46875rem;
+    border: 0.026667rem solid rgb(216, 20, 33);
+    border-radius: 0.125rem;
+    color: rgb(216, 20, 33);
+    font-size: 0.375rem;
+    text-align: center;
+    overflow: hidden;
+    max-width: 2rem;
+}
+
+.toutiaotext{
+    display: block;
+    overflow: hidden;
+    margin: 0.125rem 0px;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: rgb(53, 53, 53);
+    font-size:0.406251rem;
+    width: 6rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.cut-off{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 100%;
+    height: 0.156rem;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+}
+
+.qiangcontent{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 5.063rem;
+}
+
+.qiangbox{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 5.047rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.taoqiangbox{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.828rem;
+    height: 5.0rem;
+    margin-right: 0;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.taoqiang{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.7rem;
+    height: 5.047rem;
+    z-index: 1;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/taoqiang.jpg);
+}
+
+.taotimebox{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 1.406rem;
+    margin-left: 0.172rem;
+    width: 2.781rem;
+    height: 0.594rem;
+    position: absolute;
+}
+
+.taotime{
+    padding: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.taotime span{
+    display: inline-block;
+    width: 0.533rem;
+    line-height: 0.533rem;
+    vertical-align: middle;
+    margin-top: 0.03125rem;
+    margin-bottom:  0.03125rem;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    font-size: 0.3125rem;
+    border-radius: 0.026667rem;
+}
+
+.taotime .dot{
+    width: 0.125rem;
+    color: #333;
+    margin-right: 0.07rem;
+    margin-left: 0.07rem;
+    background: transparent;
+}
+
+.qiangbox .UIview{
+    box-sizing: border-box;
+    line-height: 0;
+    background-color: rgb(232, 232, 232);
+    width: 0.026667rem;
+    height: 5.047rem;
+}
+
+.goodgoods{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 6.188rem;
+    height: 5.047rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.good1{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 6.188rem;
+    height: 2.313rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.good1text{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 2.953rem;
+    height: 2.313rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/good1text.jpg);
+}
+
+.good1img{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.234rem;
+    height: 2.313rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/good1img.png);
+}
+
+.goodgoods .UIview{
+    box-sizing: border-box;
+    line-height: 0;
+    background-color: rgb(232, 232, 232);
+    width: 6.188rem;
+    height: 0.026667rem;
+}
+
+.good2{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 6.188rem;
+    height: 2.719rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.good2img{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.047rem;
+    height: 2.68rem;
+    z-index: 1;
+}
+
+.good2 .UIview{
+    box-sizing: border-box;
+    line-height: 0;
+    background-color: rgb(232, 232, 232);
+    width: 0.026667rem;
+    height: 2.719rem;
+}
+
+.salescontent{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 6.734rem;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.salestitle{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.844rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.salesicon{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.219rem;
+    margin-left: 4.094rem;
+    width: 0.422rem;
+    height: 0.422rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/salesicon.png);
+}
+
+.salestext{
+    box-sizing: border-box;
+    line-height: 0.844rem;
+    font-size: 0.373333rem;
+    color: rgb(255, 53, 14);
+    background-color: transparent;
+    margin-left: 0.141rem;
+    width: 1.313rem;
+    height: 0.844rem;
+}
+
+.salescontent .UIview{
+    background-color: rgb(239, 239, 239);
+}
+
+.salesbox{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 2.916rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.salesgood1{
+    box-sizing: border-box;
+    line-height: 0;
+    background-color: transparent;
+    width: 3.828rem;
+    height: 2.896rem;
+    z-index: 1;
+}
+
+.salesbox .UIview{
+    box-sizing: border-box;
+    line-height: 0;
+    background-color: rgb(232, 232, 232);
+    width: 0.026667rem;
+    height: 2.916rem;
+}
+
+.salesgood2{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 2.041rem;
+    height: 2.896rem;
+    z-index: 1;
+}
+
+.bottombox{
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 0.026667rem solid #292c33;
+    background-color: #4e525e;
+    padding: 0.5625rem 0.25rem;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a{
+    border-radius: 0.16rem;
+    font-size: 0.373333rem;
+    display: block;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    color: #c3c6ca;
+    border: 0.026667rem solid #42454d;
+    background-color: #555965;
+    padding-right: 0.46875rem;
+    padding-left: 0.46875rem;
+}
+
+.copyright{
+    font-size: 0.32rem;
+    width: 100%;
+    margin-top: 0.5625rem;
+    height: 0.5625rem;
+    line-height: 0.5625rem;
+    padding-left: 3.03125rem;
+    box-sizing: border-box;
+    background-image: url(../img/copyright.png);
+    background-repeat: no-repeat;
+    background-position: 2.3125rem center;
+    background-size: 0.53125rem 0.53125rem;
+    color: #c3c6ca;
+}
+
+footer{
+    padding-top: 0.106667rem;
+    height: 1.013333rem;
+    border-top: 0.013333rem solid #E7E7E7;
+    border-bottom: 0.013333rem solid #F8F8F8;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #FFF;
+}
+
+.bottomicon{
+    color: #5D656B;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-size: 0.266667rem;
+}
+
+.bottomicon i{
+    font-size: 0.586667rem;
+    display: block;
+    font-family: 'h5index-iconfont';
+    font-style: normal;
+    width: 100%;
+    color: #5D656B;
+    top: 0;
+    left: 0;
+}
